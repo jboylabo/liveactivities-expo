@@ -8,6 +8,7 @@
     "scheme": "liveactivitiesexpo",
     "userInterfaceStyle": "automatic",
     "ios": {
+      "bundleIdentifier": "com.sakurakotubaki.liveactivitiesexpo",
       "icon": "./assets/expo.icon"
     },
     "android": {
@@ -31,6 +32,12 @@
           "backgroundColor": "#208AEF",
           "image": "./assets/images/splash-icon.png",
           "imageWidth": 76
+        }
+      ],
+      [
+        "expo-widgets",
+        {
+          "groupIdentifier": "group.com.sakurakotubaki.liveactivitiesexpo"
         }
       ]
     ],
